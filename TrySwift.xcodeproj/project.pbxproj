@@ -12,6 +12,7 @@
 		7C5B998F28E0D4F80041F4D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C5B998E28E0D4F80041F4D4 /* Assets.xcassets */; };
 		7C5B999328E0D4F80041F4D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C5B999228E0D4F80041F4D4 /* Preview Assets.xcassets */; };
 		7C5B999B28E0D5150041F4D4 /* DeckUI in Frameworks */ = {isa = PBXBuildFile; productRef = 7C5B999A28E0D5150041F4D4 /* DeckUI */; };
+		7CC5D80728EC6D930000DE5C /* Untitled Diagram.drawio.svg in Resources */ = {isa = PBXBuildFile; fileRef = 7CC5D80628EC6D930000DE5C /* Untitled Diagram.drawio.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		7C5B998E28E0D4F80041F4D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C5B999028E0D4F80041F4D4 /* TrySwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrySwift.entitlements; sourceTree = "<group>"; };
 		7C5B999228E0D4F80041F4D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CC5D80628EC6D930000DE5C /* Untitled Diagram.drawio.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Untitled Diagram.drawio.svg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				7C5B998A28E0D4F70041F4D4 /* TrySwiftApp.swift */,
 				7C5B998C28E0D4F70041F4D4 /* ContentView.swift */,
 				7C5B998E28E0D4F80041F4D4 /* Assets.xcassets */,
+				7CC5D80628EC6D930000DE5C /* Untitled Diagram.drawio.svg */,
 				7C5B999028E0D4F80041F4D4 /* TrySwift.entitlements */,
 				7C5B999128E0D4F80041F4D4 /* Preview Content */,
 			);
@@ -135,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC5D80728EC6D930000DE5C /* Untitled Diagram.drawio.svg in Resources */,
 				7C5B999328E0D4F80041F4D4 /* Preview Assets.xcassets in Resources */,
 				7C5B998F28E0D4F80041F4D4 /* Assets.xcassets in Resources */,
 			);

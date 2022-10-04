@@ -25,15 +25,23 @@ extension ContentView {
                 Bullets {
                     Words("Create a new package for an existing project")
                     Words("Migrate different codes and classes to the package.")
-                    
+                }
+                RawView { Spacer() }
+                Bullets {
                     Words("Create a new framework for an existing project")
                     Words("Migrate different codes and classes to the framework.")
-                    
+                }
+                RawView { Spacer() }
+                Bullets {
                     Words("Make XCFramework")
                     Words("Create a new package for the XCFramework")
-
+                }
+                RawView { Spacer() }
+                Bullets {
                     Words("Import everything back into the app.")
-
+                }
+                RawView { Spacer() }
+                Bullets {
                     Words("Use your packages using Swift Package Manager.")
                 }
             }
@@ -43,6 +51,90 @@ extension ContentView {
                     Words("Build a binary framework, XCFramework.")
                     Words("Document your package using DocC")
                     Words("Libraries vs Frameworks vs SwiftPackage vs Modules vs ...")
+                }
+            }
+            Slide(padding: 30) {
+                Title("Build a binary framework, XCFramework.")
+                Code("""
+                * iOS
+                xcodebuild archive \
+                
+                -scheme NetworkingFramework \
+                
+                -configuration Release \
+                
+                -destination 'generic/platform=iOS' \
+                
+                -archivePath './build/NetworkingFramework.framework-iphoneos.xcarchive' \
+                
+                SKIP_INSTALL=NO \
+                
+                BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
+                """)
+                Code("""
+                * Simulator
+                xcodebuild archive \
+                
+                -scheme NetworkingFramework \
+                
+                -configuration Release \
+                
+                -destination 'generic/platform=iOS Simulator' \
+                
+                -archivePath './build/NetworkingFramework.framework-iphonesimulator.xcarchive' \
+                
+                SKIP_INSTALL=NO \
+                
+                BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
+                """)
+                RawView { Spacer() }
+                Code("""
+                * MacOS
+                xcodebuild archive \
+                
+                -scheme NetworkingFramework \
+                
+                -configuration Release \
+                
+                -destination 'platform=macOS,arch=x86_64' \
+                
+                -archivePath './build/NetworkingFramework.framework-catalyst.xcarchive' \
+                
+                SKIP_INSTALL=NO \
+                
+                BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
+                """)
+            }
+            Slide(padding: 30) {
+                Title("Build a binary framework, XCFramework.")
+                Code("""
+                xcodebuild -create-xcframework \
+                
+                -framework './build/NetworkingFramework.framework-iphonesimulator.xcarchive/Products/Library/Frameworks/NetworkingFramework.framework' \
+                
+                -framework './build/NetworkingFramework.framework-iphoneos.xcarchive/Products/Library/Frameworks/NetworkingFramework.framework' \
+                
+                -framework './build/NetworkingFramework.framework-catalyst.xcarchive/Products/Library/Frameworks/NetworkingFramework.framework' \
+                
+                -output './build/NetworkingFramework.xcframework'
+                """)
+            }
+            Slide {
+                Title("Framework or What?")
+                
+                Columns {
+                    Column {
+                        Bullets(style: .bullet) {
+                            Words("Frameworks")
+                            Words("Libraries")
+                            Words("SwiftPackage")
+                            Words("Modules")
+                        }
+                    }
+                    
+                    Column {
+                        Media(.bundleImage("Diagram"))
+                    }
                 }
             }
         }
