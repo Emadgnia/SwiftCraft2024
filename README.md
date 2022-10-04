@@ -9,12 +9,12 @@
 
 ## Slides
 
-![1](File 1.png)
-![2](File 2.png)
-![3](File 3.png)
-![4](File 4.png)
-![5](File 5.png)
-![6](File 6.png)
-![7](File 7.png)
+![1](File1.png)
+![2](File2.png)
+![3](File3.png)
+![4](File4.png)
+![5](File5.png)
+![6](File6.png)
+![7](File7.png)
 
 
