@@ -119,6 +119,19 @@ extension ContentView {
                 -output './build/NetworkingFramework.xcframework'
                 """)
             }
+            Slide(padding: 30) {
+                Title("DocC Using Github",subtitle: "https://emadgnia.github.io/NetworkingFramework/documentation/networkingframework/")
+                Code("""
+                    (xcrun --find docc) process-archive \
+                    
+                    transform-for-static-hosting PATH_TO_doccarchive_FILE/ \
+                    
+                    --output-path PATH_TO_EXPORTEDFOLDER/docs \
+                    
+                    --hosting-base-path /GITHUB_REPO_NAME
+                    
+                    """)
+            }
             Slide {
                 Title("Framework or What?")
                 
