@@ -1,4 +1,4 @@
-# tryswift-workshop-material
+# workshop-material
 
 ## Resources
 

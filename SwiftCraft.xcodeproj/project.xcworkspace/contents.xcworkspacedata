@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/emadgnia/Library/Mobile Documents/com~apple~CloudDocs/Docs/Conferences/SwiftCraft/New Framework/TrySwiftMaterial/SwiftCraft.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>
