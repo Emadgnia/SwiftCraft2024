@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C5B998B28E0D4F70041F4D4 /* TrySwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B998A28E0D4F70041F4D4 /* TrySwiftApp.swift */; };
+		7C5B998B28E0D4F70041F4D4 /* SwiftCraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B998A28E0D4F70041F4D4 /* SwiftCraft.swift */; };
 		7C5B998D28E0D4F70041F4D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B998C28E0D4F70041F4D4 /* ContentView.swift */; };
 		7C5B998F28E0D4F80041F4D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C5B998E28E0D4F80041F4D4 /* Assets.xcassets */; };
 		7C5B999328E0D4F80041F4D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C5B999228E0D4F80041F4D4 /* Preview Assets.xcassets */; };
@@ -16,11 +16,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7C5B998728E0D4F70041F4D4 /* TrySwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrySwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C5B998A28E0D4F70041F4D4 /* TrySwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrySwiftApp.swift; sourceTree = "<group>"; };
+		7C5B998728E0D4F70041F4D4 /* SwiftCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C5B998A28E0D4F70041F4D4 /* SwiftCraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCraft.swift; sourceTree = "<group>"; };
 		7C5B998C28E0D4F70041F4D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7C5B998E28E0D4F80041F4D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7C5B999028E0D4F80041F4D4 /* TrySwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrySwift.entitlements; sourceTree = "<group>"; };
+		7C5B999028E0D4F80041F4D4 /* SwiftCraft.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftCraft.entitlements; sourceTree = "<group>"; };
 		7C5B999228E0D4F80041F4D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7CC5D80628EC6D930000DE5C /* Untitled Diagram.drawio.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Untitled Diagram.drawio.svg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,7 +40,7 @@
 		7C5B997E28E0D4F70041F4D4 = {
 			isa = PBXGroup;
 			children = (
-				7C5B998928E0D4F70041F4D4 /* TrySwift */,
+				7C5B998928E0D4F70041F4D4 /* SwiftCraft */,
 				7C5B998828E0D4F70041F4D4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,22 +48,22 @@
 		7C5B998828E0D4F70041F4D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C5B998728E0D4F70041F4D4 /* TrySwift.app */,
+				7C5B998728E0D4F70041F4D4 /* SwiftCraft.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7C5B998928E0D4F70041F4D4 /* TrySwift */ = {
+		7C5B998928E0D4F70041F4D4 /* SwiftCraft */ = {
 			isa = PBXGroup;
 			children = (
-				7C5B998A28E0D4F70041F4D4 /* TrySwiftApp.swift */,
+				7C5B998A28E0D4F70041F4D4 /* SwiftCraft.swift */,
 				7C5B998C28E0D4F70041F4D4 /* ContentView.swift */,
 				7C5B998E28E0D4F80041F4D4 /* Assets.xcassets */,
 				7CC5D80628EC6D930000DE5C /* Untitled Diagram.drawio.svg */,
-				7C5B999028E0D4F80041F4D4 /* TrySwift.entitlements */,
+				7C5B999028E0D4F80041F4D4 /* SwiftCraft.entitlements */,
 				7C5B999128E0D4F80041F4D4 /* Preview Content */,
 			);
-			path = TrySwift;
+			path = SwiftCraft;
 			sourceTree = "<group>";
 		};
 		7C5B999128E0D4F80041F4D4 /* Preview Content */ = {
@@ -77,9 +77,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7C5B998628E0D4F70041F4D4 /* TrySwift */ = {
+		7C5B998628E0D4F70041F4D4 /* SwiftCraft */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C5B999628E0D4F80041F4D4 /* Build configuration list for PBXNativeTarget "TrySwift" */;
+			buildConfigurationList = 7C5B999628E0D4F80041F4D4 /* Build configuration list for PBXNativeTarget "SwiftCraft" */;
 			buildPhases = (
 				7C5B998328E0D4F70041F4D4 /* Sources */,
 				7C5B998428E0D4F70041F4D4 /* Frameworks */,
@@ -89,12 +89,12 @@
 			);
 			dependencies = (
 			);
-			name = TrySwift;
+			name = SwiftCraft;
 			packageProductDependencies = (
 				7C5B999A28E0D5150041F4D4 /* DeckUI */,
 			);
 			productName = TrySwift;
-			productReference = 7C5B998728E0D4F70041F4D4 /* TrySwift.app */;
+			productReference = 7C5B998728E0D4F70041F4D4 /* SwiftCraft.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7C5B998228E0D4F70041F4D4 /* Build configuration list for PBXProject "TrySwift" */;
+			buildConfigurationList = 7C5B998228E0D4F70041F4D4 /* Build configuration list for PBXProject "SwiftCraft" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,7 +128,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7C5B998628E0D4F70041F4D4 /* TrySwift */,
+				7C5B998628E0D4F70041F4D4 /* SwiftCraft */,
 			);
 		};
 /* End PBXProject section */
@@ -152,7 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C5B998D28E0D4F70041F4D4 /* ContentView.swift in Sources */,
-				7C5B998B28E0D4F70041F4D4 /* TrySwiftApp.swift in Sources */,
+				7C5B998B28E0D4F70041F4D4 /* SwiftCraft.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +273,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = TrySwift/TrySwift.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SwiftCraft/SwiftCraft.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TrySwift/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftCraft/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "I dont know why?";
@@ -295,7 +295,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = emadgnia.TrySwift;
+				PRODUCT_BUNDLE_IDENTIFIER = emadgnia.SwiftCraft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -310,10 +310,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = TrySwift/TrySwift.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SwiftCraft/SwiftCraft.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TrySwift/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftCraft/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "I dont know why?";
@@ -332,7 +332,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = emadgnia.TrySwift;
+				PRODUCT_BUNDLE_IDENTIFIER = emadgnia.SwiftCraft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -345,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7C5B998228E0D4F70041F4D4 /* Build configuration list for PBXProject "TrySwift" */ = {
+		7C5B998228E0D4F70041F4D4 /* Build configuration list for PBXProject "SwiftCraft" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C5B999428E0D4F80041F4D4 /* Debug */,
@@ -354,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C5B999628E0D4F80041F4D4 /* Build configuration list for PBXNativeTarget "TrySwift" */ = {
+		7C5B999628E0D4F80041F4D4 /* Build configuration list for PBXNativeTarget "SwiftCraft" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C5B999728E0D4F80041F4D4 /* Debug */,
@@ -370,8 +370,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/joshdholtz/DeckUI.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

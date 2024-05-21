@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  TrySwift
+//  SwiftCraft
 //
 //  Created by Emad Ghorbaninia on 25/09/2022.
 //
@@ -15,10 +15,13 @@ struct ContentView: View {
 }
 extension ContentView {
     var deck: Deck {
-        Deck(title: "Try Swift! World Fall 2022") {
+        Deck(title: "Swift Craft 2024") {
             Slide(alignment: .center) {
-                Title("How to Create", subtitle: "Libraries, frameworks, and swift packages for iOS")
+                Media(.assetImage("title"))
             }
+//            Slide(alignment: .center) {
+//                Title("How to Create", subtitle: "Libraries, frameworks, and swift packages for iOS")
+//            }
             
             Slide(padding: 100) {
                 Title("Topics")
@@ -55,7 +58,7 @@ extension ContentView {
             }
             Slide(padding: 30) {
                 Title("Build a binary framework, XCFramework.")
-                Code("""
+                Code{"""
                 * iOS
                 xcodebuild archive \
                 
@@ -70,8 +73,8 @@ extension ContentView {
                 SKIP_INSTALL=NO \
                 
                 BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
-                """)
-                Code("""
+                """}
+                Code{"""
                 * Simulator
                 xcodebuild archive \
                 
@@ -86,9 +89,9 @@ extension ContentView {
                 SKIP_INSTALL=NO \
                 
                 BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
-                """)
+                """}
                 RawView { Spacer() }
-                Code("""
+                Code{"""
                 * MacOS
                 xcodebuild archive \
                 
@@ -103,11 +106,11 @@ extension ContentView {
                 SKIP_INSTALL=NO \
                 
                 BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
-                """)
+                """}
             }
             Slide(padding: 30) {
                 Title("Build a binary framework, XCFramework.")
-                Code("""
+                Code{"""
                 xcodebuild -create-xcframework \
                 
                 -framework './build/NetworkingFramework.framework-iphonesimulator.xcarchive/Products/Library/Frameworks/NetworkingFramework.framework' \
@@ -117,11 +120,11 @@ extension ContentView {
                 -framework './build/NetworkingFramework.framework-catalyst.xcarchive/Products/Library/Frameworks/NetworkingFramework.framework' \
                 
                 -output './build/NetworkingFramework.xcframework'
-                """)
+                """}
             }
             Slide(padding: 30) {
                 Title("DocC Using Github",subtitle: "https://emadgnia.github.io/NetworkingFramework/documentation/networkingframework/")
-                Code("""
+                Code{"""
                     (xcrun --find docc) process-archive \
                     
                     transform-for-static-hosting PATH_TO_doccarchive_FILE/ \
@@ -130,7 +133,7 @@ extension ContentView {
                     
                     --hosting-base-path /GITHUB_REPO_NAME
                     
-                    """)
+                    """}
             }
             Slide {
                 Title("Framework or What?")
@@ -147,6 +150,22 @@ extension ContentView {
                     
                     Column {
                         Media(.bundleImage("Diagram"))
+                    }
+                }
+            }
+            Slide {
+                Title("Thank You",subtitle: "Let's keep in touch")
+                Columns {
+                    Column {
+                        Bullets(style: .bullet) {
+                            Words("Twitter(X): @emadgnia")
+                            Words("Linkedin: emadgnia")
+                            Words("Kodeco(RayWenderlich): emadgnia")
+                            Words("https://www.emadgnia.com")
+                        }
+                    }
+                    Column {
+                        Media(.bundleImage("tweet"))
                     }
                 }
             }
