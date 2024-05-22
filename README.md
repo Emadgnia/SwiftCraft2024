@@ -34,5 +34,5 @@ xcodebuild -create-xcframework -framework './build/NewNetworking.framework-iphon
 
 // DocC
 
-(xcrun --find docc) process-archive transform-for-static-hosting ./ --output-path ./docs --hosting-base-path /GITHUB_REPO_NAME
+(xcrun --find docc) process-archive transform-for-static-hosting ./NetworkingFramework.doccarchive --output-path ./docs --hosting-base-path /GITHUB_REPO_NAME
                     
